@@ -1,0 +1,9 @@
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\bin\Debug\netcoreapp3.1\Intento.deps.json
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\bin\Debug\netcoreapp3.1\Intento.dll
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\bin\Debug\netcoreapp3.1\Intento.pdb
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\obj\Debug\netcoreapp3.1\Intento.csprojAssemblyReference.cache
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\obj\Debug\netcoreapp3.1\Intento.AssemblyInfoInputs.cache
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\obj\Debug\netcoreapp3.1\Intento.AssemblyInfo.cs
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\obj\Debug\netcoreapp3.1\Intento.csproj.CoreCompileInputs.cache
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\obj\Debug\netcoreapp3.1\Intento.dll
+C:\Users\Diego Salazar Zea\Desktop\ProbandoLZW\Intento\obj\Debug\netcoreapp3.1\Intento.pdb
