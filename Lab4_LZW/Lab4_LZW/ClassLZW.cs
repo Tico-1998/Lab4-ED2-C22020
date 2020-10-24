@@ -10,7 +10,9 @@ using System.Text;
 namespace Lab4_LZW
 {
     public class ClassLZW
-    { 
+    {
+        public static long original = 0;
+        public static long nuevo = 0;
         public static string routeDirectory = Environment.CurrentDirectory;
         public static void Comprimir(IFormFile archivo, string nombre)
         {
@@ -18,7 +20,7 @@ namespace Lab4_LZW
             {
                 Directory.CreateDirectory(Path.Combine(routeDirectory, "compress"));
             }
-
+            original = archivo.Length;
             using (var reader = new BinaryReader(archivo.OpenReadStream()))
             {
                 using (var streamWriter = new FileStream(Path.Combine(routeDirectory, "compress", $"{nombre}.lzw"), FileMode.OpenOrCreate))
@@ -120,12 +122,21 @@ namespace Lab4_LZW
                         }
 
                         writer.Write(bufferEscritura.ToArray());
-
+                        nuevo = streamWriter.Length;
+                        double razon = nuevo / original;
+                        double factor = original / nuevo;
+                        double porcentaje = razon * 100;
+                        writer.Write("Razon = " + razon + " factor " + factor + " porcenta " + porcentaje);
                     }
                 }
             }
         }
 
+        public static void calculos()
+        {
+            
+
+        }
         public static string Descomprimir(IFormFile archivo, string nombre)
         {
             if (!Directory.Exists(Path.Combine(routeDirectory, "decompress")))
