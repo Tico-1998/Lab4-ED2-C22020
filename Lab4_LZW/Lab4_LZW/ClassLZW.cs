@@ -10,8 +10,8 @@ using System.Text;
 namespace Lab4_LZW
 {
     public class ClassLZW
-    {
-        private static string routeDirectory = Environment.CurrentDirectory;
+    { 
+        public static string routeDirectory = Environment.CurrentDirectory;
         public static void Comprimir(IFormFile archivo, string nombre)
         {
             if (!Directory.Exists(Path.Combine(routeDirectory, "compress")))
